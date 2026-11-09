@@ -1,0 +1,12 @@
+{
+  "title": "PPT 2: ShipLabs",
+  "topic": "Major Project",
+  "description": "ShipLabs, my major project: an AI tutor that teaches, checks and coaches in the browser and inside VS Code. Streaming chat, a state-machine tutor, four-tier fact checking, spaced repetition, project labs and a VS Code reviewer that comments but never codes, in 34 animated slides.",
+  "slides": 34,
+  "steps": 94,
+  "minutes": 90,
+  "tags": ["edtech", "ai-tutor", "vs-code", "llm", "major-project"],
+  "accent": "#e3b341",
+  "thumbnail": "thumbnail.webp",
+  "template": true
+}

@@ -2,7 +2,7 @@
 
 > An interactive 3D presentation, roughly 80 minutes long, that walks an audience from "what is a block?" to Proof of Stake, forks and 51% attacks.
 
-**[▶ Play it live](https://drago-03.github.io/Distributed_Consensus_in_Blockchain/decks/Blockchain_Concepts/Distributed_Consensus_in_Blockchain/)** · [Presentation hub](https://drago-03.github.io/Distributed_Consensus_in_Blockchain/)
+**[▶ Play it live](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/decks/Blockchain_Concepts/Distributed_Consensus_in_Blockchain/)** · [Presentation hub](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/)
 
 Each slide is a live **React Three Fiber** scene. The camera flies between slide "stations" along a path through one shared 3D world. Every click reveals one step, and each step has its own camera shot, caption and speaker script.
 
