@@ -2,7 +2,7 @@
 
 > An animated, step-by-step presentation of **ShipLabs**, an AI tutor that teaches, checks and coaches, in the browser and inside VS Code. About 90 minutes.
 
-**[▶ Play it live](https://drago-03.github.io/Distributed_Consensus_in_Blockchain/decks/Pathshala/ShipLabs/)** · [Presentation hub](https://drago-03.github.io/Distributed_Consensus_in_Blockchain/)
+**[▶ Play it live](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/decks/Pathshala/ShipLabs/)** · [Presentation hub](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/)
 
 Built on the same engine as PPT 1 (one step per click, presenter window, deep links, resume), with a new look: every slide is an animated diagram drawn on a fixed 16:9 artboard, over a live 3D backdrop that drifts and re-tints between slides.
 

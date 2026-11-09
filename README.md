@@ -4,10 +4,10 @@
 
 **An interactive, 3D, step-driven presentation that explains how thousands of computers agree on one truth without anyone in charge.**
 
-### [▶ Open the presentation hub](https://drago-03.github.io/Distributed_Consensus_in_Blockchain/)
+### [▶ Open the presentation hub](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/)
 
-[![Deploy](https://github.com/Drago-03/Distributed_Consensus_in_Blockchain/actions/workflows/pages.yml/badge.svg)](https://drago-03.github.io/Distributed_Consensus_in_Blockchain/)
-[![CI](https://github.com/Drago-03/Distributed_Consensus_in_Blockchain/actions/workflows/ci.yml/badge.svg)](https://github.com/Drago-03/Distributed_Consensus_in_Blockchain/actions/workflows/ci.yml)
+[![Deploy](https://github.com/this-is-not-a-dev/Distributed_Consensus_in_Blockchain/actions/workflows/pages.yml/badge.svg)](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/)
+[![CI](https://github.com/this-is-not-a-dev/Distributed_Consensus_in_Blockchain/actions/workflows/ci.yml/badge.svg)](https://github.com/this-is-not-a-dev/Distributed_Consensus_in_Blockchain/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3ed6c5.svg)](LICENSE)
 [![React 19](https://img.shields.io/badge/React-19-61dafb.svg?logo=react&logoColor=white)](https://react.dev)
 [![Three.js](https://img.shields.io/badge/Three.js-r186-black.svg?logo=three.js)](https://threejs.org)
@@ -32,7 +32,7 @@ The first deck, **Distributed Consensus in Blockchain**, covers 22 slides in thr
 
 ## Live hub
 
-**<https://drago-03.github.io/Distributed_Consensus_in_Blockchain/>**
+**<https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/>**
 
 The site opens on a presentation hub modelled on the Google Slides home screen, in dark mode. Pick a deck to play, search and filter by topic, or start from a template. Every push to `main` rebuilds the hub and all decks and redeploys them to GitHub Pages.
 
@@ -60,7 +60,7 @@ Decks are grouped as `PPTs/<Topic>/<Deck_Name>/`, which leaves room for future t
 Requirements: [Bun](https://bun.sh) 1.3 or newer (Node 20+ with npm also works).
 
 ```bash
-git clone https://github.com/Drago-03/Distributed_Consensus_in_Blockchain.git
+git clone https://github.com/this-is-not-a-dev/Distributed_Consensus_in_Blockchain.git
 cd Distributed_Consensus_in_Blockchain/PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain
 bun install
 bun run dev
@@ -111,7 +111,7 @@ Decks are built with a relative base (`vite build --base ./`), so load public as
 
 Every deck shares the same engine: a step timeline, a camera rig that flies between slide "stations", a step rail and a presenter window. To start a new deck:
 
-1. Copy `PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain/` to `PPTs/<Your_Topic>/<Your_Deck>/`, or run `npx degit Drago-03/Distributed_Consensus_in_Blockchain/PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain my-deck`.
+1. Copy `PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain/` to `PPTs/<Your_Topic>/<Your_Deck>/`, or run `npx degit this-is-not-a-dev/Distributed_Consensus_in_Blockchain/PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain my-deck`.
 2. Update `deck.json` so the deck shows up in the hub.
 3. Edit `src/slides/meta.ts` (titles, step counts, timings) and `src/slides/notes.ts` (speaker notes).
 4. Replace the `SlideNN.tsx` files with your own scenes and register them in `src/slides/registry.ts`.

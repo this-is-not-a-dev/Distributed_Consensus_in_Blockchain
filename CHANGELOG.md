@@ -29,5 +29,5 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 - Open-source scaffolding: license, contributing guide, code of conduct, security policy,
   issue and PR templates, and CI.
 
-[1.1.0]: https://github.com/Drago-03/Distributed_Consensus_in_Blockchain/releases/tag/v1.1.0
-[1.0.0]: https://github.com/Drago-03/Distributed_Consensus_in_Blockchain/releases/tag/v1.0.0
+[1.1.0]: https://github.com/this-is-not-a-dev/Distributed_Consensus_in_Blockchain/releases/tag/v1.1.0
+[1.0.0]: https://github.com/this-is-not-a-dev/Distributed_Consensus_in_Blockchain/releases/tag/v1.0.0

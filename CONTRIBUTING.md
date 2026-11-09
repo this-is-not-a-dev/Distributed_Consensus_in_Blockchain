@@ -12,7 +12,7 @@ Thanks for your interest in improving these presentations. This guide explains h
 
 ## Before you start
 
-1. Search [existing issues](https://github.com/Drago-03/Distributed_Consensus_in_Blockchain/issues) to avoid duplicates.
+1. Search [existing issues](https://github.com/this-is-not-a-dev/Distributed_Consensus_in_Blockchain/issues) to avoid duplicates.
 2. For anything larger than a small fix, open an issue first so we can agree on the approach.
 3. Use the matching issue template: **Slide review**, **Bug report** or **Feature request**.
 
