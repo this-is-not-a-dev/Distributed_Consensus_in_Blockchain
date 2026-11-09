@@ -219,6 +219,7 @@ body {
 .title-lead { margin: 0; font-size: 17px; line-height: 1.5; color: var(--muted); }
 .title-author { padding-top: 14px; border-top: 1px solid var(--line); display: grid; gap: 2px; }
 .title-name { margin: 0; font-size: 19px; font-weight: 600; }
+.title-members { margin: 0 0 4px; font-size: 15px; line-height: 1.5; color: var(--text); }
 .title-course { margin: 0; font-size: 14px; color: var(--muted); }
 
 /* full-screen boards */
