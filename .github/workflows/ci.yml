@@ -14,11 +14,17 @@ concurrency:
 
 jobs:
   build:
-    name: Lint & build
+    name: Lint & build (${{ matrix.deck }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        deck:
+          - PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain
+          - PPTs/Pathshala/ShipLabs
     defaults:
       run:
-        working-directory: PPTs/Blockchain_Concepts/Distributed_Consensus_in_Blockchain
+        working-directory: ${{ matrix.deck }}
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
