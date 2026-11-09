@@ -2,6 +2,8 @@
 
 > An animated, step-by-step presentation of **ShipLabs**, an AI tutor that teaches, checks and coaches, in the browser and inside VS Code. About 90 minutes.
 
+**Team Indie Hub:** Mantej Singh Arora · Gagandeep · Dhruv Pandey · Divyansh Sharma
+
 **[▶ Play it live](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/decks/Pathshala/ShipLabs/)** · [Presentation hub](https://this-is-not-a-dev.github.io/Distributed_Consensus_in_Blockchain/)
 
 Built on the same engine as PPT 1 (one step per click, presenter window, deep links, resume), with a new look: every slide is an animated diagram drawn on a fixed 16:9 artboard, over a live 3D backdrop that drifts and re-tints between slides.
@@ -23,6 +25,8 @@ bun run dev      # starts Vite on http://localhost:5173
 | Restart whole deck | `Shift` + `R` |
 | Open presenter window | `N` |
 | Full screen | `F` |
+
+**Speaker notes:** [SPEAKER_NOTES.md](SPEAKER_NOTES.md) has the full script, one paragraph per step (regenerate with `bun scripts/notes.ts`).
 
 Press **`N`** to open the presenter window on your laptop: a live mini preview of the slide, the script for the current step, the next step's script and a timer. It follows the main window through `BroadcastChannel`. The URL tracks your position (`#/slide/7/step/3`), and the deck offers to resume where you stopped. `prefers-reduced-motion` is honoured.
 

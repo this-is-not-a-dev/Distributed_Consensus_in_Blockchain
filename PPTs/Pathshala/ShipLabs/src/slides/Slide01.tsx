@@ -71,8 +71,8 @@ export const slide: SlideDef = {
   steps: [
     {
       title: 'Welcome',
-      caption: 'ShipLabs: an AI tutor that teaches, checks and coaches, in the browser and inside VS Code. Presented by Mantej Singh Arora.',
-      say: "Good morning everyone. My major project is called ShipLabs. It is an AI tutor that does three things. It teaches you, it checks your answers, and it coaches you while you build real projects, even inside your own code editor. Let's begin.",
+      caption: 'ShipLabs: an AI tutor that teaches, checks and coaches, in the browser and inside VS Code. Presented by team Indie Hub: Mantej Singh Arora, Gagandeep, Dhruv Pandey and Divyansh Sharma.',
+      say: "Good morning everyone. We are team Indie Hub, and our major project is called ShipLabs. It is an AI tutor that does three things. It teaches you, it checks your answers, and it coaches you while you build real projects, even inside your own code editor. Let's begin.",
       body: (
         <div className="title-card">
           <p className="kicker">Major Project</p>
@@ -81,7 +81,8 @@ export const slide: SlideDef = {
           </h1>
           <p className="title-lead">An AI tutor that teaches, checks and coaches, in your browser and inside VS Code.</p>
           <div className="title-author">
-            <p className="title-name">Mantej Singh Arora</p>
+            <p className="title-name">Team Indie Hub</p>
+            <p className="title-members">Mantej Singh Arora · Gagandeep · Dhruv Pandey · Divyansh Sharma</p>
             <p className="title-course">B.Tech CSE · 7th Semester</p>
             <p className="title-course">IKGPTU Mohali Campus</p>
           </div>
