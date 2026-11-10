@@ -15,7 +15,8 @@ export function TopBar() {
   return (
     <header className="topbar">
       <div className="topbar-title">
-        <Logo />
+        <Logo height={38} />
+        <span className="topbar-divider" aria-hidden />
         <div className="topbar-meta">
           <span className="kicker">{PARTS[meta?.part ?? 'intro'].label}</span>
           <span className="topbar-slide">{meta?.title}</span>
