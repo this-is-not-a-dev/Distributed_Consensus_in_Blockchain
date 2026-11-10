@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Logo } from '../ui/Logo';
 import { SLIDE_META } from '../slides/meta';
 import { getStepNotes } from '../slides/notes';
 import { PRESENTER_CHANNEL, type PresenterMessage } from '../engine/presenterSync';
@@ -57,6 +58,7 @@ export default function PresenterView() {
   return (
     <div className="pv">
       <div className="pv-head">
+        <Logo mark height={24} />
         <span className="kicker">Presenter view · not shown on the projector</span>
         <span className="pv-timer mono">{timer.label}</span>
         <button type="button" className="btn" data-variant="ghost" onClick={timer.reset}>

@@ -2,6 +2,7 @@ import { ArrowRight, GraduationCap } from 'lucide-react';
 import { Board, Chip, Code, Orb, Txt, Win, Wire, Wires, draw, pop, spring, useScene } from '../scene/kit';
 import { StepEngine } from '../engine/StepEngine';
 import { Button } from '../ui/Button';
+import { Logo } from '../ui/Logo';
 import type { SlideDef } from './registry';
 
 const CODE = [
@@ -77,7 +78,7 @@ export const slide: SlideDef = {
         <div className="title-card">
           <p className="kicker">Major Project</p>
           <h1 className="title-hero">
-            Ship<em>Labs</em>
+            <Logo height={96} className="hero-logo" />
           </h1>
           <p className="title-lead">An AI tutor that teaches, checks and coaches, in your browser and inside VS Code.</p>
           <div className="title-author">
